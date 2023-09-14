@@ -15,7 +15,6 @@ using http_server::RequestHandler;
 
    std::ostream& out = resp.send();
 
-    out << "<h1>Hello world!</h1>";
-
-    out.flush();
+   out << "<h1>Hello world!</h1>";
+   out.flush();
 }
